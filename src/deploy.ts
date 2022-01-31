@@ -11,7 +11,6 @@ async function copyFiles(config: Config) {
 
 async function syncDirectories(config: Config) {
   const { sync } = config;
-
   for (const { from, to, exclude } of sync.directories) {
     console.log("[sync]", from);
     await syncDirectory(config, from, to, exclude);

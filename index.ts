@@ -7,10 +7,10 @@ await grantPermissions([{ name: "read" }, { name: "write" }, { name: "run" }]);
 
 const config = await readConfig();
 
-if (Deno.args.includes("ssh")) {
+if (Deno.args.includes("connect")) {
   await connect(config);
 } else if (Deno.args.includes("tunnel")) {
   await tunnel(config);
-} else {
+} else if (Deno.args.includes("sync")) {
   await deploy(config);
 }
