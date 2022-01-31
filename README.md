@@ -3,6 +3,7 @@
 Just some commands to deploy things on a server via SSH
 
 ```sh
+zzh [--config zzh.json]
 zzh connect [--config zzh.json]
 zzh tunnel [--config zzh.json]
 zzh sync [--config zzh.json]

@@ -13,4 +13,9 @@ if (Deno.args.includes("connect")) {
   await tunnel(config);
 } else if (Deno.args.includes("sync")) {
   await deploy(config);
+} else {
+  console.log('Available commands:')
+  console.log('   connect')
+  console.log('   tunnel')
+  console.log('   sync')
 }
