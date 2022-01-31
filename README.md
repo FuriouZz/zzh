@@ -8,6 +8,14 @@ zzh tunnel [--config zzh.json]
 zzh sync [--config zzh.json]
 ```
 
+```bash
+# Install locally
+git clone git@github.com:FuriouZz/zzh.git && cd zzh && deno run install.ts
+
+# Install remotely
+deno --unstable install [--allow-run] [--allow-read] [--allow-write] --name zzh https://raw.githubusercontent.com/FuriouZz/zzh/main/index.ts
+```
+
 `zzh.json` example with Bedrock's wordpress deploy to a Lightsail instance
 
 ```json
