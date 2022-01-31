@@ -10,10 +10,10 @@ zzh sync [--config zzh.json]
 ```
 
 ```bash
-# Install locally
+# Install locally from clone
 git clone git@github.com:FuriouZz/zzh.git && cd zzh && deno run install.ts
 
-# Install remotely
+# Install locally from git
 deno --unstable install [--allow-run] [--allow-read] [--allow-write] --name zzh https://raw.githubusercontent.com/FuriouZz/zzh/main/index.ts
 ```
 
