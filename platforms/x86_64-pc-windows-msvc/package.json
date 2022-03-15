@@ -1,0 +1,32 @@
+{
+  "name": "@furiouzz/zzh-x86_64-pc-windows-msvc",
+  "version": "1.0.0",
+  "description": "Windows ZZH binary used by zzh",
+  "homepage": "https://github.com/FuriouZz/zzh#readme",
+  "scripts": {
+    "test": "file zzh.exe | grep -qF \"PE32+\""
+  },
+  "bugs": {
+    "url": "https://github.com/FuriouZz/zzh/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuriouZz/zzh.git",
+    "directory": "platforms/x86_64-pc-windows-msvc"
+  },
+  "keywords": [
+    "zzh",
+    "ssh",
+    "binary",
+    "win32",
+    "x64"
+  ],
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "author": "furiouzz <info@chrsmsln.com>",
+  "license": "ISC"
+}

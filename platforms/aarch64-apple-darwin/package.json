@@ -1,0 +1,33 @@
+{
+  "name": "@furiouzz/zzh-aarch64-apple-darwin",
+  "version": "1.0.0",
+  "description": "Mac OS X ZZH binary used by zzh",
+  "homepage": "https://github.com/FuriouZz/zzh#readme",
+  "scripts": {
+    "test": "file zzh | grep -qF \"Mach-O\"",
+    "postinstall": "chmod u+x zzh"
+  },
+  "bugs": {
+    "url": "https://github.com/FuriouZz/zzh/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuriouZz/zzh.git",
+    "directory": "platforms/aarch64-apple-darwin"
+  },
+  "keywords": [
+    "zzh",
+    "ssh",
+    "binary",
+    "darwin",
+    "arm64"
+  ],
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "author": "furiouzz <info@chrsmsln.com>",
+  "license": "ISC"
+}

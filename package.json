@@ -1,0 +1,25 @@
+{
+  "name": "@furiouzz/zzh",
+  "version": "1.0.0",
+  "description": "Just some commands to deploy things on a server via SSH",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuriouZz/zzh.git"
+  },
+  "author": "furiouzz <info@chrsmsln.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FuriouZz/zzh/issues"
+  },
+  "homepage": "https://github.com/FuriouZz/zzh#readme",
+  "optionalDependencies": {
+    "@zzh/x86_64-unknown-linux-gnu": "1.0.0",
+    "@zzh/x86_64-pc-windows-msvc": "1.0.0",
+    "@zzh/x86_64-apple-darwin": "1.0.0",
+    "@zzh/aarch64-apple-darwin": "1.0.0"
+  }
+}
