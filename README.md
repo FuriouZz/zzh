@@ -15,6 +15,9 @@ git clone git@github.com:FuriouZz/zzh.git && cd zzh && deno run install.ts
 
 # Install locally from git
 deno --unstable install [--allow-run] [--allow-read] [--allow-write] --name zzh https://raw.githubusercontent.com/FuriouZz/zzh/main/index.ts
+
+# Install with NodeJS
+npm i -g github:furiouzz/zzh
 ```
 
 `zzh.json` example with Bedrock's wordpress deploy to a Lightsail instance
